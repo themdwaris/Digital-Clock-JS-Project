@@ -1,0 +1,72 @@
+
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+
+}
+
+Just do this
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+.lr-pad{
+    padding: 0 8%;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    flex-direction: column;
+
+}
+.container h1{
+    text-align: center;
+    color: white;
+    font-family: 'Orbitron';
+    margin-bottom: 40px;
+    font-size: 40px;
+
+}
+#time{
+    /* padding: 25px; */
+    font-size: 70px;
+    font-weight: 700;
+    color: rgb(3, 255, 45);
+    font-family: 'Orbitron';
+ 
+
+}
+#date{
+    /* padding: 25px; */
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(31, 117, 21);
+    font-family: 'Orbitron';
+    margin-bottom: 10px;
+
+
+}
+@media screen and (max-width:600px){
+    #time{
+        font-size: 40px;
+        font-weight: 900;
+    }
+    #date{
+        font-size: 35px;
+        font-weight: 600;
+    }
+    h1{
+        font-size: 30px;
+    }
+}
